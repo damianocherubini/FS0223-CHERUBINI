@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>Form semplice</h2>
+    <form method="post" action="login.php">
+        <label for="username">Nome Utente</label>
+        <input type="text" id="username" name="username" placeholder="inserire il nome utente">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="inserire la password">
+        <br><br>
+        <button type="submit" id="invia">INVIA</button>
+        <BUTTOn type="reset" id="cancella">CANCELLA</BUTTOn>
+    </form>
+
+    <hr>
+
+    <h2>
+        Form complesso
+    </h2>
+    <fieldset>
+        <legend>Anagrafica</legend>
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome">
+        <label for="cognome">Cognome</label>
+        <input type="text" name="cognome" id="cognome">
+        <br><br>
+        <label for="indirizzo">indirizzo</label>
+        <textarea cols="40" rows="2"></textarea>
+        <br><br>
+        <label for="CAP">CAP</label>
+        <input type="text" id="CAP" name="CAP">
+        <label for="citta">Città</label>
+        <input type="text" id="citta" name="citta">
+        <label for="provincia">Prov.</label>
+        <input type="text" maxlength="2" minlength="2" id="provincia" name="provincia">
+    </fieldset>
+
+    <p>&nbsp;</p>
+
+    <fieldset>
+        <legend>Contatti</legend>
+        <label for="telefono">Telefono</label>
+        <input type="tel" id="telefono" name="telefono">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <label for="whatsapp">Whatsapp</label>
+        <input type="tel" id="whatsapp
+        ">
+    </fieldset>
+
+    <p>&nbsp;</p>
+
+    <fieldset>
+        <legend>Preferenze</legend>
+        <label for="corso">tipo di corso scelto</label>
+        <select name="corso" id="corso">
+            <option value=""selected></option>
+            <option value="full">Full stack</option>
+            <option value="back">back-end</option>
+            <option value="front">front-end</option>
+        </select>
+        <p>Linguaggi conosciuti</p>
+        <input type="checkbox" name="html" id="html">
+        <label for="html">HTML</label>
+        <input type="checkbox" name="html" id="html">
+        <label for="html">HTML</label>
+        <input type="checkbox" name="html" id="html">
+        <label for="html">HTML</label>
+        <P>Time Format</P>
+        <input type="radio" id="fulltime" name="format">
+        <label for="fulltime">full-time</label>
+        <input type="radio" id="fulltime" name="format">
+        <label for="fulltime">full-time</label>
+        <input type="radio" id="fulltime" name="format">
+        <label for="fulltime">full-time</label>
+    </fieldset>
+
+    <br><br>
+
+    <button type="submit" id="invia">INVIA</button>
+    <BUTTOn type="reset" id="cancella">CANCELLA</BUTTOn>
+
+
+</body>
+</html>
