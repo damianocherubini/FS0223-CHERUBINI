@@ -1,0 +1,27 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    background: linear-gradient(90deg, rgb(128, 0, 128), rgb(250, 128, 114));;
+    margin: 0;
+   
+}
+
+.back {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+.img { width: 20%;
+    height: 20%;
+}
+.resto {
+    width: 50%;
+    margin: 0 auto;
+
+}
