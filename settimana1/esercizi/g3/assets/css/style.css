@@ -17,6 +17,9 @@ html, body {
     margin: 0 auto;
     text-align: center;
 }
+#align {
+    text-align: left;
+}
 .img { width: 20%;
     height: 20%;
 }
@@ -24,4 +27,10 @@ html, body {
     width: 50%;
     margin: 0 auto;
 
+}
+.caption {
+    color: rgb(177, 37, 77);
+}
+.feat {
+    color: red;
 }
