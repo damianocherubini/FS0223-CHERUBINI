@@ -102,8 +102,9 @@ table {
     color: #00A1C8;
 }
 .sect {
-    border: solid 1px grey;
+    border: solid 1px rgb(143, 143, 143);
     background-color: rgb(183, 181, 181);
+    margin: 1em;
 }
 .ali {
     text-align: right;
