@@ -18,10 +18,102 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 
+    font-family: 'Poppins', sans-serif;
     font-size: 0.8em;
 }
 
-body {
-    background-image: url("ass");
+.container { background-image: url("../img/sfondo.png");
+}
+.grad {
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    padding: 2em;
+    margin: 2em;
+    background: linear-gradient(180deg, rgb(0,160,198), rgb(3,109,134))
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' -25,
+  'opsz' 48
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+  
+}
+header h1 {
+    color: white;
+}
+.puntino {
+    list-style-type: none;
+    
+    
+}
+.hov:hover {
+        color: red;
+}
+.principale {
+    background-color: white;
+    padding: 2em;
+    margin: 0 2em;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.pdp {
+    color: white;
+    background: linear-gradient(180deg, rgb(0,85,102), rgb(43,53,56));
+    padding: 2em;
+    margin: 2em;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.mario {
+    color: rgb(183, 181, 181);
+}
+code {
+    border: 1px solid grey;
+    background-color: rgb(183, 181, 181);
+}
+
+.sel {
+    color: #aa2072;
+}
+.tabh {
+    color: white;
+    background-color: #3f6bca;
+}
+
+.pari tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+table {
+    border-bottom: 1px solid #3f6bca;
+}
+.tonline {
+    color: #00A1C8;
+}
+.sect {
+    background-color: rgb(183, 181, 181);
+}
+.ali {
+    text-align: right;
+}
+.mail {
+    color: fuchsia;
+}
+.dot {
+    border-bottom: dotted 1px black ;
+}
+.but {
+    background-color: #3f6bca;
+    color: white;
 }
