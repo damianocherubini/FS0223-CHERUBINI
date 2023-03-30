@@ -102,6 +102,7 @@ table {
     color: #00A1C8;
 }
 .sect {
+    border: solid 1px grey;
     background-color: rgb(183, 181, 181);
 }
 .ali {
