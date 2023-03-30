@@ -49,6 +49,7 @@ header {
 }
 
 header a {
+    margin: 0 auto;
     text-decoration: none;
     color: white;
   
@@ -75,7 +76,7 @@ header h1 {
 }
 
 iframe {
-    margin: 0 auto;
+    margin-bottom: 2em;
 }
 .pdp {
     color: white;
@@ -120,7 +121,7 @@ h3 a {
     padding: 0.5em;
     border: solid 1px rgb(143, 143, 143);
     background-color: rgb(183, 181, 181);
-    margin: 1em;
+    margin-bottom: 2em;
 }
 .ali {
     text-align: right;
