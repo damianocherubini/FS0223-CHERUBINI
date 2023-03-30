@@ -28,18 +28,24 @@ html, body {
     -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
     box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
-    padding: 2em;
-    margin: 2em;
+    padding: 1em;
+    margin: 0 auto;
+    width: 80%;
     background: linear-gradient(180deg, rgb(0,160,198), rgb(3,109,134))
 }
 
 
 .material-symbols-outlined {
+    scale: 50%;
   font-variation-settings:
   'FILL' 1,
-  'wght' 400,
+  'wght' 100,
   'GRAD' -25,
   'opsz' 48
+}
+
+header {
+    text-align: center;
 }
 
 header a {
@@ -61,17 +67,22 @@ header h1 {
 .principale {
     background-color: white;
     padding: 2em;
-    margin: 0 2em;
+    margin: 2em auto;
+    width: 80%;
     -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
     box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
+iframe {
+    margin: 0 auto;
+}
 .pdp {
     color: white;
     background: linear-gradient(180deg, rgb(0,85,102), rgb(43,53,56));
     padding: 2em;
-    margin: 2em;
+    margin: 0 auto;
+    width: 80%;
     -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
     box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
@@ -81,6 +92,7 @@ header h1 {
 }
 code {
     border: 1px solid grey;
+    border-radius: 2px;
     background-color: rgb(183, 181, 181);
 }
 
@@ -98,10 +110,14 @@ code {
 table {
     border-bottom: 1px solid #3f6bca;
 }
+h3 a {
+    color: #00A1C8;
+}
 .tonline {
     color: #00A1C8;
 }
 .sect {
+    padding: 1em;
     border: solid 1px rgb(143, 143, 143);
     background-color: rgb(183, 181, 181);
     margin: 1em;
