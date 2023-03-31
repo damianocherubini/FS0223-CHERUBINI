@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Preventivo</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Preventivo</h1>
+      <form id="quote-form">
+        <h2>Prodotto 1</h2>
+        <div class="item">
+          <img src="prodotto1.jpg" alt="Prodotto 1" class="product-img">
+          <div class="item-details">
+            <span class="product-name">Prodotto 1</span>
+            <span class="product-price">50 €</span>
+            <label for="quantity1">Quantità:</label>
+            <input type="number" id="quantity1" class="quantity" value="0">
+          </div>
+        </div>
+        <h2>Prodotto 2</h2>
+        <div class="item">
+          <img src="prodotto2.jpg" alt="Prodotto 2" class="product-img">
+          <div class="item-details">
+            <span class="product-name">Prodotto 2</span>
+            <span class="product-price">80 €</span>
+            <label for="quantity2">Quantità:</label>
+            <input type="number" id="quantity2" class="quantity" value="0">
+          </div>
+        </div>
+        <!-- Aggiungi altre voci qui... -->
+        
+        <div id="total">
+          <p>Totale: <span id="total-price">0 €</span></p>
+        </div>
+        
+        <button type="submit" id="submit-btn">Invia</button>
+      </form>
+    </div>
+  </body>
+</html>
