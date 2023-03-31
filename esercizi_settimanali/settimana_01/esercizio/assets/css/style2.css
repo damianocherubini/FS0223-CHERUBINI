@@ -1,0 +1,150 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+}
+
+.container {
+    font-family: 'Open Sans';
+    color: #393d41;
+    line-height: 1.65em;
+    margin: 0;
+}
+
+#intestazione {
+    background-color: black;
+    padding: 0.5em;
+    margin: 0;
+}
+
+#logo {
+    width: 300px;
+    text-align: left;
+    scale: 50%;
+}
+
+.principale {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10em;
+    text-align: center;
+}
+
+.headings {
+    color: #25a2c3;
+    font-family: 'Montserrat';
+    line-height: 1.5em;
+    margin: 0;
+}
+
+button {    
+    background-color: #f04c2f;
+    border-radius: 5px;
+    border: none;
+    padding: 1em 2em;
+}
+
+.partiamo {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    color: white;
+    padding: 4em 2em;
+}
+
+.flex1 {
+    margin: 3em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.block {
+    padding: 2em;
+}
+
+.notebook {
+    scale: 150%;
+    margin: 1em auto;
+    border-radius: 50%;
+}
+
+aside div {
+    text-align: center;
+    padding: 1em;
+    background-color: #e22d0e;
+    color: white;
+    margin-bottom: 1em;
+}
+
+aside div h2 {
+    font-family: 'Montserrat';
+    line-height: 1.5em;
+}
+
+.mario {
+    margin-bottom: 0;
+}
+
+.ceo {
+    margin-top: 0;
+    font-size: 0.8rem;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.card {
+    display: block;
+    text-align: center;
+    border: 0.5px solid grey;
+    margin-bottom: 2em;
+    margin: 2em;
+}
+
+#footer {
+    display: flex;
+    text-align: center;
+    color: #c8e7f0;
+    background-color: #25a2c3;
+    padding: 1em;
+    justify-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+#pie {
+    text-align: left;
+    margin: auto;
+}
+
+.pdp {
+    
+    display: block;
+}
+
+footer h2 {
+    color: white;
+    font-family: 'Montserrat';
+    line-height: 1.5em;
+}
+
+footer a {
+    color: #c8e7f0;
+}
+
+hr {
+    width: 50%;
+    color: white;
+}
+
+.fa-square-phone, .fa-square-envelope, .fa-map-location-dot {
+    color: white;
+}
