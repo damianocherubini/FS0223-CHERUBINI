@@ -1,0 +1,120 @@
+/* Your styles here */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.container {
+    font-family: 'Open Sans';
+    color: #393d41;
+    line-height: 1.65em;
+}
+
+#intestazione {
+    background-color: black;
+    padding: 2em;
+}
+
+.principale {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1em;
+}
+
+.headings {
+    color: #25a2c3;
+    font-family: 'Montserrat';
+    line-height: 1.5em;
+    margin: 0;
+}
+
+button {    
+    background-color: #f04c2f;
+    border-radius: 5px;
+    border: none;
+    padding: 1em 2em;
+}
+
+.partiamo {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    color: white;
+    padding: 4em 2em;
+}
+
+section {
+    margin: 1em;
+}
+
+.notebook {
+    margin: 1em auto;
+    border-radius: 50%;
+}
+
+aside div {
+    padding: 1em;
+    background-color: #e22d0e;
+    color: white;
+}
+
+aside div h2 {
+    font-family: 'Montserrat';
+    line-height: 1.5em;
+}
+
+.mario {
+    margin-bottom: 0;
+}
+
+.ceo {
+    margin-top: 0;
+    font-size: 0.8rem;
+}
+
+.card {
+    text-align: center;
+    border: 0.5px solid grey;
+    margin-bottom: 2em;
+}
+
+aside section {
+    padding: 1em;
+}
+
+.cards {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    color: #c8e7f0;
+    background-color: #25a2c3;
+    padding: 1em;
+}
+
+footer h2 {
+    color: white;
+    font-family: 'Montserrat';
+    line-height: 1.5em;
+}
+
+footer a {
+    color: #c8e7f0;
+}
+
+hr {
+    width: 50%;
+    color: white;
+}
+
+.fa-square-phone, .fa-square-envelope, .fa-map-location-dot {
+    color: white;
+}
