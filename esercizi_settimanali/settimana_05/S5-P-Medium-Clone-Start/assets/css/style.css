@@ -1,262 +1,291 @@
-html,
-body {
+
+html, body {
     margin: 0;
     padding: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 0.8em;
-    text-align: center;
 }
 
-hr {
-    color: black;
-}
-li {
-    list-style-type: disc;
-}
 
-ul {
-    padding-inline-start: 0;
-}
-.sfondo {
-    
-    background-color: #FFC017;
 
+/*nav*/
+
+
+nav, #trendingContainer, #section2 {
+    width: 60%;
+    margin: auto;
 }
-.fisso {
-    position: relative;
+header {
+    background-color: #ffc017;
+}
+#navContainer {
+    border-bottom: 1px solid #191919;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #ffc017;
+    transition: background-color 1s;
 }
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 1em;
-    width: 80%;
-    margin: 0 auto;
+    align-items: center;
+    padding: 0.2em;
 }
-
-nav ul {
+nav img {
+    cursor: pointer;
+}
+ul {
     display: flex;
-}
-
-nav ul li {
-    padding: 1em;
-    margin: 0.2em;
     list-style-type: none;
+    align-items: center;
+}
+#heroContainer { 
+    border-bottom: 1px solid #191919;
+    height: 450px;
+    margin-top: 4.8em;
+    margin-bottom: 2em;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: black;
-}
-
-/*main*/
-
-main {
-    margin: 0 auto;
-}
-
-.giallo {
-    background-color: #FFC017;
-    padding-left: 10%;
+#hero {
+    margin-left: 18.5%;
     display: flex;
-    justify-content: space-between;
+    position: relative;
+    height: 100%;
 }
-
-.emme {
-    text-align: right;
-
+li {
+    padding: 0 1em;
 }
-
-.curious {
-    text-align: left;
-    width: 60%;
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.curious h1 {
-    font-size: 8em;
-}
-
-.curious p {
-    font-size: 3em;
-}
-
-.curious button {
-    width: 20%;
+li button {
+    padding: 0.7em 1.4em;
+    background-color: #191919;
     color: white;
-    background-color: black;
-    border-radius: 10%;
+    border-radius: 30px;
+    transition: background-color 1s;
+    cursor: pointer;
 }
-
-/*section*/
-section {
-    width: 80%;
-    margin: 0 auto;
-    padding: 2em;
-    font-size: 1.2em;
+a {
+    text-decoration: none;
+    color: #191919;
 }
-
-.trending h3 {
-    font-weight: bold;
-    font-size: larger;
-}
-
-.trends {
-    display: flex;
-    justify-content: space-between;
-}
-
-.nodec {
-    list-style-type: none;
-}
-
-section {
-    text-align: left;
-}
-
-.trending {
-    display: flex;
-}
-
-.trend {
-    display: flex;
-}
-
-.zerouno {
-    font-weight: bold;
-    font-size: 3.5em;
-    color: #E6E7E7;
-}
-
-.trend-content {
-    margin-left: 2em;
+#hero > div {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-}
-
-.trend-1 {
-    display: flex;
-    align-items: center;
-    font-weight: bold;
-    font-size: larger;
-}
-
-.trend-1 img {
-    scale: 50%;
-    border-radius: 50%;
-    margin-left: -1em;
-}
-
-.trend-title {
-    font-size: large;
-    font-weight: bold;
-}
-
-.trend-data {
-    display: flex;
-    align-items: center;
-    color: grey;
-    padding: 1em 0;
-    font-size: larger;
-}
-
-.dec {
-
-    margin: 0 2em;
-}
-
-/* articoli */
-
-article {
-    margin-top: 5em;
-    color: black;
-}
-.articoli {
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    font-size: 1.2em;
-    justify-content: space-between;
-}
-.articolo {
-    display: flex;
-    align-items: center;
-   margin-top: -6em;
-    text-align: left;
-}
-
-.topic {
-    padding: 0.5em 1em;
-    background-color: #E6E7E7;
-    border-radius: 25%;
-}
-
-.dec2 {
-    margin: 0
-}
-
-.lastrow {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.img-articolo {
-    width: 30%;
-    scale: 50%;
-}
-
-.articolo-content {
-    margin-left: 2em;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 70%;
-}
-
-.topics {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    align-items: flex-start;
+    
+}
+#emme {
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
-article h3 {
-    font-weight: bold;
-    font-size: larger;
-    color: black;
+h3 + button {
+    padding: 0.5em 3em;
+    background-color: #191919;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.invisible {
+    opacity: 0;
 }
 
-.topics a {
-    text-decoration: none;
-    padding: 1em;
-    margin: 0.5em;
-    border: solid 1px grey;
-    color: grey;
+h1 {
+    font-family: 'Spectral', serif;
+    margin: 0;
+    padding-bottom: 0.3em;
+    font-size: 92px;
+    font-weight: 400;
+    line-height: 1;
 }
-.trenta {
-    width: 30%;
+h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 1em;
+    width: 65%;
 }
-.sessanta {
-    width: 60%;
+button {
+    font-family: 'Roboto', sans-serif;
 }
-.more {
-    padding-bottom: 2em;
+
+
+
+/*discover section*/
+.discoverBtn {
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 0.5em 1em;
+    margin: 0.5em 0.1em 0.5em 0;
+    color: gray;
+    cursor: pointer;
 }
-.footer ul {
+#discoverMore {
+    padding-left: 3em;
+    position: sticky;
+    top: 4.8em;
+    align-self: flex-start;
+}
+#discoverMore p {
+    font-weight: 700;
+    font-size: 0.9em;
+}
+#finalList ul {
+    flex-wrap: wrap;
+    padding: 0;
+}
+#finalList ul li {
+    padding: 0 1.5em 1em 0;
+    color: gray;
+    cursor: pointer;
+
+}
+#finalList {
+    border-top: 1px solid lightgray;
+    font-size: 0.9em;
+    margin-top: 2em;
+}
+
+/*tranding section*/
+
+#trending {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
-.footer a {
-    text-decoration: none;
-    padding: 1em;
-    margin: 0.5em;
-    color: grey;
+#trending div {
+    flex-basis: 33.33%;
+    display: flex;
 }
-.par {
-    color: grey;
+.trendingCard {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 10;
+    height: 100%;
 }
+.trendingCard div {
+    display: flex;
+    align-items: center;
+}
+h4 {
+    flex-grow: 1;
+    margin: 0;
+    font-size: 2em;
+    color: lightgray;
+}
+#trendingTitle {
+    display: flex;
+    align-items: center;
+}
+#trendingTitle p {
+    padding-left: 0.5em;
+    font-weight: bold;
+}
+.trendingImage {
+    width: 25px;
+    height: 25px;
+    border-radius: 90px;
+    margin-right: 0.5em;
+    cursor: pointer;
+}
+.trendingImage + p {
+    font-size: 0.8em;
+    font-weight: 600;
+    width: 80%;
+    cursor: pointer;
+}
+h5 {
+    margin: 0;
+    width: 80%;
+    font-weight: bold;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+.readingTime {
+    padding-bottom: 4em;
+    font-size: 0.8em;
+    color: gray
+}
+.readingTime img {
+    cursor: pointer;
+}
+#section1 {
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 5em;
+}
+
+/*article section*/
+
+.article {
+    display: flex;
+    margin-bottom: 3em;
+}
+#section2 {
+    display: flex;
+}
+#articleContainer {
+    flex-basis: 60%;
+}
+#discoverMore {
+    flex-basis: 40%;
+}
+.articleImage img {
+    width: 200px;
+    height: 150px;
+    cursor: pointer;
+}
+.articleInfo {
+    flex-basis: 75%;
+}
+.articleImage {
+    flex-basis: 25%;
+}
+.articleHeader {
+    align-items: center;
+}
+.articleInfo div {
+    display: flex;
+}
+p:nth-of-type(3) {
+    background-color: lightgray;
+    padding: 0.4em 0.6em;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.articleFooter {
+    justify-content: space-between;
+}
+.footerInfo {
+    align-items: center;
+    font-size: 0.8em;
+    color: gray;
+}
+.footerInfo p {
+    margin-top: 0.5em;
+}
+.footerInfo img {
+    cursor: pointer;
+}
+h2 {
+    margin: 0;
+    font-size: 1.3em;
+    font-weight: 700;
+    cursor: pointer;
+}
+h2+p {
+    margin-top: 8px;
+    margin-bottom: 0;
+    color: gray;
+    cursor: pointer;
+}
+.articleFooter img {
+    padding-right: 2em;
+    cursor: pointer;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Spectral&display=swap');

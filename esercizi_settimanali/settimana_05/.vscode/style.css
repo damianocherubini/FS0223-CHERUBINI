@@ -1,0 +1,262 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+hr {
+    color: black;
+}
+li {
+    list-style-type: disc;
+}
+
+ul {
+    padding-inline-start: 0;
+}
+.sfondo {
+    
+    background-color: #FFC017;
+
+}
+.fisso {
+    position: relative;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    padding: 1em;
+    margin: 0.2em;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/*main*/
+
+main {
+    margin: 0 auto;
+}
+
+.giallo {
+    background-color: #FFC017;
+    padding-left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.emme {
+    text-align: right;
+
+}
+
+.curious {
+    text-align: left;
+    width: 60%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.curious h1 {
+    font-size: 8em;
+}
+
+.curious p {
+    font-size: 3em;
+}
+
+.curious button {
+    width: 20%;
+    color: white;
+    background-color: black;
+    border-radius: 10%;
+}
+
+/*section*/
+section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em;
+    font-size: 1.2em;
+}
+
+.trending h3 {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.trends {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nodec {
+    list-style-type: none;
+}
+
+section {
+    text-align: left;
+}
+
+.trending {
+    display: flex;
+}
+
+.trend {
+    display: flex;
+}
+
+.zerouno {
+    font-weight: bold;
+    font-size: 3.5em;
+    color: #E6E7E7;
+}
+
+.trend-content {
+    margin-left: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.trend-1 {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.trend-1 img {
+    scale: 50%;
+    border-radius: 50%;
+    margin-left: -1em;
+}
+
+.trend-title {
+    font-size: large;
+    font-weight: bold;
+}
+
+.trend-data {
+    display: flex;
+    align-items: center;
+    color: grey;
+    padding: 1em 0;
+    font-size: larger;
+}
+
+.dec {
+
+    margin: 0 2em;
+}
+
+/* articoli */
+
+article {
+    margin-top: 5em;
+    color: black;
+}
+.articoli {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.2em;
+    justify-content: space-between;
+}
+.articolo {
+    display: flex;
+    align-items: center;
+   margin-top: -6em;
+    text-align: left;
+}
+
+.topic {
+    padding: 0.5em 1em;
+    background-color: #E6E7E7;
+    border-radius: 25%;
+}
+
+.dec2 {
+    margin: 0
+}
+
+.lastrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-articolo {
+    width: 30%;
+    scale: 50%;
+}
+
+.articolo-content {
+    margin-left: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 70%;
+}
+
+.topics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article h3 {
+    font-weight: bold;
+    font-size: larger;
+    color: black;
+}
+
+.topics a {
+    text-decoration: none;
+    padding: 1em;
+    margin: 0.5em;
+    border: solid 1px grey;
+    color: grey;
+}
+.trenta {
+    width: 30%;
+}
+.sessanta {
+    width: 60%;
+}
+.more {
+    padding-bottom: 2em;
+}
+.footer ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer a {
+    text-decoration: none;
+    padding: 1em;
+    margin: 0.5em;
+    color: grey;
+}
+.par {
+    color: grey;
+}
