@@ -1,0 +1,19 @@
+@import "partials/variables";
+@import "partials/header";
+
+
+
+p {
+    color: $mainColor;
+    font-size: 15px;
+    font-family: $font-stack;
+    text-align: center;
+}
+
+body > div {
+    background-color: $secondaryColor;
+    width: 50%;
+    margin: 0 auto;
+    height: 300px;
+    padding: 1em;
+}

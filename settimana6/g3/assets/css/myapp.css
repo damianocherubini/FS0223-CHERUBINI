@@ -1,0 +1,14 @@
+p {
+  color: white;
+  font-size: 15px;
+  font-family: "Times New Roman";
+  text-align: center;
+}
+
+body > div {
+  background-color: green;
+  width: 50%;
+  margin: 0 auto;
+  height: 300px;
+  padding: 1em;
+}/*# sourceMappingURL=myapp.css.map */

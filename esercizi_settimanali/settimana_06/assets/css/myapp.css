@@ -1,0 +1,28 @@
+.bg-lilla {
+  background-color: #7550fe;
+}
+
+@media (min-width: 576px) {
+  .container-fluid {
+    max-width: 540px;
+  }
+}
+@media (min-width: 992px) {
+  .container-fluid {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-fluid {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container-fluid {
+    max-width: 1320px;
+  }
+}
+
+body > .container {
+  background-color: white;
+}/*# sourceMappingURL=myapp.css.map */
