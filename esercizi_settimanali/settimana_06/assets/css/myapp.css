@@ -2,27 +2,28 @@
   background-color: #7550fe;
 }
 
-@media (min-width: 576px) {
-  .container-fluid {
-    max-width: 540px;
-  }
-}
-@media (min-width: 992px) {
-  .container-fluid {
-    max-width: 960px;
-  }
-}
-@media (min-width: 1200px) {
-  .container-fluid {
-    max-width: 1140px;
-  }
-}
-@media (min-width: 1400px) {
-  .container-fluid {
-    max-width: 1320px;
-  }
-}
-
 body > .container {
   background-color: white;
+}
+
+.hov:hover {
+  color: #7550fe;
+}
+
+.bell {
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.ico {
+  width: 50px;
+  height: 50px;
+  background-color: #d1c6b4;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #aa7743;
 }/*# sourceMappingURL=myapp.css.map */
